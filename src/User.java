@@ -1,12 +1,12 @@
 public class User {
 
-    private static int liczbaUzytkownikow = 0
+    private static int liczbaUzytkownikow = 0;
     private String username1;
     private String email1;
 
 
     public User(String username2, String email2) {
-        if (username2.length() > 3) {
+        if (username2.length() >= 3) {
             this.username1 = username2;
         } else {
             this.username1 = username2;

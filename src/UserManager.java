@@ -17,9 +17,10 @@ public class UserManager {
 
     // Metoda wyświetlająca wszystkich użytkowników
     //uzytkownikMojaNowaNazwa nowy objekt classy  User.  Znika po zakonczeniu metody wyswietlUzytkownikow1)
-    public void wyswietlUzytkownikow1{
+    public void wyswietlUzytkownikow1(){
         for (User uzytkownikMojaNowaNazwa : listaUzytkownikow1) {
             System.out.println("Nazwa: " + uzytkownikMojaNowaNazwa.getUsername1() + ", Email: " + uzytkownikMojaNowaNazwa.getEmail());
         }
     }
+
 }
